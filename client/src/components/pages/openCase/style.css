@@ -1,0 +1,18 @@
+.itemsBlock {
+  display: flex;
+  width: 1100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 100%;
+}
+.itemsInBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.itemImage {
+  height: 100px;
+}

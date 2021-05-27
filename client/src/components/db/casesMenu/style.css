@@ -1,0 +1,8 @@
+.imgCasesList {
+  height: 200px;
+}
+.casePool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

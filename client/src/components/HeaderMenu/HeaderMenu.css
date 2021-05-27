@@ -1,0 +1,45 @@
+.foolSizeHead {
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+.headerMenuLink {
+  font-family: robotomedium, sans-serif;
+  color: #fff;
+  font-size: 13pt;
+  text-decoration: none;
+}
+.headerMenuLink:hover {
+  color: gold;
+  transition: 1s;
+}
+.headerMenuLink:not(:hover) {
+  color: #fff;
+  transition: 1s;
+}
+.headerMenuLinkBlock ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width:100%;
+}
+.headerMenuLinkBlock li {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+}
+.headerMenuLinks {
+  display: flex;
+  align-items: center;
+}
+.authorization {
+  color: #fff;
+}
+.winnersLine {
+  width:100%;
+  background-color: blueviolet;
+  height: 50px;
+}
